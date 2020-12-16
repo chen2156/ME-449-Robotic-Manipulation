@@ -1,0 +1,6 @@
+Writing error plot data.
+Generating animation csv file.
+Done
+Writing error plot data.
+Generating animation csv file.
+Done
