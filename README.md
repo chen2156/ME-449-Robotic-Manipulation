@@ -1,6 +1,7 @@
 # ME-449-Robotic-Manipulation
 Github Repository for ME 449 Final Project
 
+
 Project Link: http://hades.mech.northwestern.edu/index.php/Mobile_Manipulation_Capstone
 Introduction
 In this project, I was able to simulate a youBot mobile manipulator ( a robot that has a mobile base with four mecanum wheels and a 5R robot arm) to move a block from one location to another.  In order to do this, I planned out a trajectory for the end-effector of the robot.  This dictated how the gripper of the youBot would move.  I also performed  odometry as the chassis of the robot moved, as well as perform feedback control to drive the robot.  These things allowed me to make the robot move to the block, pick it up, carry it to the desired location, and put it down.  The MATLAB functions generated csv files after running the scripts, which allowed me to simulate the results in CoppeliaSim.  
