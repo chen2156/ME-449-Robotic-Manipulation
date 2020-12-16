@@ -47,6 +47,7 @@ Before running the code, make sure that the mr library folder is downloaded and 
 
 To see the best result, run bestscript
 This generates:
+
     • BestConfiguration.csv, which is a list of configurations for the robot
     • bestfigure.pdf showing a plot of the six elements of Xerr as a function of time.  The plot shows a convergence to zero. 
     • bestlogfile.txt showing how the program is called with the input
@@ -55,6 +56,7 @@ This generates:
 
 To see the overshoot result, run overshootscript
 This generates:
+
     • OvershootConfiguration.csv, which is a list of configurations for the robot
     • overshootfigure.pdf showing a plot of the six elements of Xerr as a function of time.  The plot shows a convergence to zero. 
     • overshootlogfile.txt showing how the program is called with the input
@@ -62,10 +64,12 @@ This generates:
       
 To see the newTask result, run newTaskscript
 This generates:
+
     • newTaskConfiguration.csv, which is a list of configurations for the robot
     • newTaskfigure.pdf showing a plot of the six elements of Xerr as a function of time.  The plot shows a convergence to zero. 
     • newTasklogfile.txt showing how the program is called with the input
     • newTaskXerr.csv showing all of the Xerr value of each iteration
+    
 Results
 To see the animation of the results, open CoppeliaSim, and run Scene 6.  Upload the generated csv files into the scene to watch what happens.  In the animation, the robot should behave in such a way that it first drives up to the cube, picks it up, carries the cube to the desired destination, and puts it down.  Corresponding videos of the animation can be found in the results folder.
 
