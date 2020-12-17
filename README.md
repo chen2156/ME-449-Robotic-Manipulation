@@ -42,7 +42,9 @@ Xerr * Δt to a running total at each timestep. The feedforward reference  twist
 The output of FeedbackControl is the commanded end-effector twist V expressed in the end-effector frame {e}. To turn this into commanded wheel and arm joint speeds (u,thetadot), we use the pseudoinverse of the mobile manipulator Jacobian Je(θ), 
 
 Operation 
+
 mr library Github: https://github.com/NxRLab/ModernRobotics
+
 Before running the code, make sure that the mr library folder is downloaded and added to the path where you are running the script from.  To run the code, open up a MATLAB terminal and run scripts to generate the csv files.  Also make sure the mr library is added to the path before running the scripts
 
 To see the best result, run bestscript
