@@ -1,5 +1,5 @@
 # ME-449-Robotic-Manipulation
-<h4>Github Repository for ME 449 Final Project</h4>
+<h2>Github Repository for ME 449 Final Project</h2>
 
 
 Project Link: http://hades.mech.northwestern.edu/index.php/Mobile_Manipulation_Capstone
