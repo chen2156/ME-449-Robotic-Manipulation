@@ -10,7 +10,7 @@ Project Link: http://hades.mech.northwestern.edu/index.php/Mobile_Manipulation_C
 
 During the project, 3 functions were created through three milestones
 
-Milestone 1:  NextState -
+<h3>Milestone 1:  NextState -</h3>
 
 The function NextState is based on a simple first-order Euler step:
 
@@ -18,7 +18,7 @@ The function NextState is based on a simple first-order Euler step:
     • new wheel angles = (old wheel angles) + (wheel speeds) * Δt
     • new chassis configuration is obtained from odometry, as described in Chapter 13.4 of the ME 449 textbook
 
-Milestone 2: TrajectoryGenerator - 
+<h3>Milestone 2: TrajectoryGenerator - </h3>
 
 This function uses ScrewTrajectory function from the mr library to calculate the 8 reference trajectories for the gripper of the robot.  The gripper has the following 8 trajectories.
 1. A trajectory to move the gripper from its initial configuration to a "standoff" configuration a few cm above the block.
@@ -30,7 +30,7 @@ This function uses ScrewTrajectory function from the mr library to calculate the
 7. A trajectory to open the gripper.
 8. A trajectory to move the gripper back to the "standoff" configuration.
 
-Milestone 3: FeedbackControl - 
+<h3>Milestone 3: FeedbackControl - </h3>
 
 To calculate the control law FeedbackControl, we need the current actual end-effector configuration X(q,θ), a function of the chassis configuration q and the arm configuration θ. The values (q,θ) come  directly from the simulation results (Milestone 1). In other words, assume perfect sensors.
 
