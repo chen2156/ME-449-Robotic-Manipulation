@@ -72,7 +72,7 @@ This generates:
     • newTasklogfile.txt showing how the program is called with the input
     • newTaskXerr.csv showing all of the Xerr value of each iteration
     
-Results
+<h2>Results</h2>
 To see the animation of the results, open CoppeliaSim, and run Scene 6.  Upload the generated csv files into the scene to watch what happens.  In the animation, the robot should behave in such a way that it first drives up to the cube, picks it up, carries the cube to the desired destination, and puts it down.  Corresponding videos of the animation can be found in the results folder.
 
 
